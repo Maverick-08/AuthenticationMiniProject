@@ -8,3 +8,10 @@
 3 if no match is found add the user to the database.
 4 Route the user to Authentication.
 */
+
+const userRegistrationHandler = async (req,res)=>{
+    console.log(req.body)
+    return res.send({message:"Success"})
+}
+
+module.exports = {userRegistrationHandler}
