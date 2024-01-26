@@ -52,7 +52,7 @@
     justify-content: center;
 }
 .formCard{
-    height: 300px;
+    height: 350px;
     width: 350px;
     background-color: #fff;
     border-radius: 8px;
@@ -83,6 +83,13 @@ textarea::placeholder{
     padding: 16px;
 }
 
+#message{
+    color: red;
+    font-style: 'Roboto';
+    font-size: 16px;
+    margin-left: 24px;
+}
+
 .buttons{
     height: 40%;
     display: flex;
@@ -102,6 +109,7 @@ textarea::placeholder{
     font-weight: 600;
     font-style: 'Roboto';
     margin: auto;
+    cursor: pointer;
 }
 
 #signUp{
@@ -115,5 +123,6 @@ textarea::placeholder{
     font-weight: 700;
     font-style: 'Roboto';
     margin: auto;
+    cursor: pointer;
 }
 
